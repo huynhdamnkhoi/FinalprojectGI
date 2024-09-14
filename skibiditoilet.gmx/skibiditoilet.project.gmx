@@ -4,27 +4,133 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\sounddoor</sound>
+    <sound>sound\scream</sound>
+    <sound>sound\train</sound>
+    <sound>sound\keyunlockdoor</sound>
+    <sound>sound\pickkey</sound>
+    <sound>sound\thewindthatkill</sound>
+    <sound>sound\ambush</sound>
+    <sound>sound\visions</sound>
+    <sound>sound\wipe</sound>
+    <sound>sound\drown</sound>
+    <sound>sound\chaser_ost</sound>
+    <sound>sound\bulldozerscream</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\idle</sprite>
     <sprite>sprites\run</sprite>
     <sprite>sprites\wall</sprite>
     <sprite>sprites\tile</sprite>
+    <sprite>sprites\fog</sprite>
+    <sprite>sprites\redfog</sprite>
+    <sprite>sprites\green_fog</sprite>
+    <sprite>sprites\purple_fog</sprite>
+    <sprite>sprites\black</sprite>
+    <sprite>sprites\obscure_spr</sprite>
+    <sprite>sprites\bigobscure_spr</sprite>
+    <sprite>sprites\door_spr1</sprite>
+    <sprite>sprites\door_spr2</sprite>
+    <sprite>sprites\door_spr3</sprite>
+    <sprite>sprites\door_spr4</sprite>
+    <sprite>sprites\lockdoored</sprite>
+    <sprite>sprites\ghost</sprite>
+    <sprite>sprites\bulldozer_spr</sprite>
+    <sprite>sprites\closet</sprite>
+    <sprite>sprites\closet_open</sprite>
+    <sprite>sprites\invisible</sprite>
+    <sprite>sprites\sprite16</sprite>
+    <sprite>sprites\almighty</sprite>
+    <sprite>sprites\almightclone</sprite>
+    <sprite>sprites\smilie_death</sprite>
+    <sprite>sprites\bull_death_spr</sprite>
+    <sprite>sprites\chaser_death_text</sprite>
+    <sprite>sprites\almighty_text</sprite>
+    <sprite>sprites\tutorial_text</sprite>
+    <sprite>sprites\cover</sprite>
+    <sprites name="cover">
+      <sprite>sprites\title</sprite>
+      <sprite>sprites\start</sprite>
+      <sprite>sprites\tutorial</sprite>
+    </sprites>
+    <sprites name="chaser_spr">
+      <sprite>sprites\chaser_spr_door1</sprite>
+      <sprite>sprites\chaser_spr_door2</sprite>
+      <sprite>sprites\chaser_spr_door3</sprite>
+      <sprite>sprites\chaser_spr_door4</sprite>
+      <sprite>sprites\chaser_text_intro</sprite>
+    </sprites>
+    <sprite>sprites\chaser_spr_main</sprite>
+    <sprite>sprites\chaser_jumpscare</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\wood</background>
+    <background>background\tiledeco</background>
     <background>background\background3</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\game_start.gml</script>
+  </scripts>
   <shaders name="shaders">
     <shader type="GLSLES">shaders\shader0.shader</shader>
   </shaders>
+  <fonts name="fonts">
+    <font>fonts\font0</font>
+  </fonts>
   <objects name="objects">
     <object>objects\wall_obj</object>
     <object>objects\stick_plr</object>
+    <object>objects\fog_obj</object>
+    <object>objects\obscure</object>
+    <object>objects\bigobscure</object>
+    <object>objects\door</object>
+    <object>objects\door4</object>
+    <object>objects\door3</object>
+    <object>objects\door2</object>
+    <object>objects\roomdoor1</object>
+    <object>objects\lockdoor</object>
+    <object>objects\Smilie</object>
+    <object>objects\bulldozer</object>
+    <object>objects\closet_hide</object>
+    <object>objects\spawnkey</object>
+    <object>objects\key</object>
+    <object>objects\The_Almighty</object>
+    <object>objects\smilie_text</object>
+    <object>objects\bulldozer_detahtext</object>
+    <object>objects\almighty_death</object>
+    <object>objects\tutorial_obj</object>
+    <object>objects\almighty_clone</object>
+    <object>objects\cover_art</object>
+    <object>objects\title_obj</object>
+    <object>objects\play_button</object>
+    <object>objects\tuto_button</object>
+    <object>objects\placeholder</object>
+    <object>objects\chaser</object>
+    <object>objects\jumpscare_chaser</object>
+    <object>objects\bulldozerwaypoint</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\lobby</room>
+    <room>rooms\bedhall</room>
+    <room>rooms\bedhall_lock</room>
     <room>rooms\regularhall</room>
+    <room>rooms\threewayroom</room>
+    <room>rooms\threewayroom2</room>
+    <room>rooms\fourway</room>
+    <room>rooms\fourway_2</room>
+    <room>rooms\fourway_3</room>
+    <room>rooms\fourway_lock</room>
+    <room>rooms\jumpscare_smilie</room>
+    <room>rooms\jumpscare_bulldozer</room>
+    <room>rooms\almighty_jumpscare</room>
+    <room>rooms\Tutorial_Room</room>
+    <rooms name="misc">
+      <room>rooms\blackscreen</room>
+      <room>rooms\chaserintro</room>
+    </rooms>
+    <room>rooms\chaser_roomjumpscare</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
